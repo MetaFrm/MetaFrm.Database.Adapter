@@ -9,11 +9,11 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>MetaFrm.Database.Adapter.net6.0</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>6.0.0.1</Version>
+    <Version>6.0.0.2</Version>
     <Company>Meta Framework</Company>
     <Copyright>Copyright 2022. dsun all rights reserved.</Copyright>
-    <PackageProjectUrl>https://github.com/dsuny/MetaFrm.Database.Adapter</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/dsuny/MetaFrm.Database.Adapter</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/MetaFrm/MetaFrm.Database.Adapter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MetaFrm/MetaFrm.Database.Adapter</RepositoryUrl>
     <PackageTags>meta;framework;dotnet;maui;</PackageTags>
     <Authors>dsun</Authors>
 	
@@ -40,7 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MetaFrm.Core.net6.0" Version="6.0.0" />
+    <PackageReference Include="MetaFrm.Core.net6.0" Version="6.0.0.4" />
   </ItemGroup>
 
   <ItemGroup>

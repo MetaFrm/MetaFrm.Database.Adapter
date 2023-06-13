@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <AssemblyName>MetaFrm.Database.Adapter</AssemblyName>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <PackageId>MetaFrm.Database.Adapter.net6.0</PackageId>
+    <PackageId>MetaFrm.Database.Adapter.net7.0</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>7.0.0.0</Version>
     <Company>Meta Framework</Company>

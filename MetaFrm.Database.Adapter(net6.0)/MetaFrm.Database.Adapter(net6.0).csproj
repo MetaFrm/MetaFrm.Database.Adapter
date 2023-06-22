@@ -9,7 +9,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>MetaFrm.Database.Adapter.net6.0</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>6.0.0.40</Version>
+    <Version>6.0.0.42</Version>
     <Company>Meta Framework</Company>
     <Copyright>Copyright 2023. dsun all rights reserved.</Copyright>
     <PackageProjectUrl>https://github.com/MetaFrm/MetaFrm.Database.Adapter</PackageProjectUrl>
@@ -40,7 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MetaFrm.Core.net6.0" Version="6.0.0.40" />
+    <PackageReference Include="MetaFrm.Core.net6.0" Version="6.0.0.42" />
   </ItemGroup>
 
   <ItemGroup>

@@ -16,6 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\build_6.0.yml = .github\workflows\build_6.0.yml
 		.github\workflows\build_7.0.yml = .github\workflows\build_7.0.yml
+		.github\workflows\build_8.0.yml = .github\workflows\build_8.0.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{6CCB4DE2-1677-4EEC-9845-2864AD024661}"
@@ -26,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Database.Adapter(net7.0)", "MetaFrm.Database.Adapter(net7.0)\MetaFrm.Database.Adapter(net7.0).csproj", "{084A2558-570A-4659-94EE-8756EE9BB942}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Database.Adapter(net8.0)", "MetaFrm.Database.Adapter(net8.0)\MetaFrm.Database.Adapter(net8.0).csproj", "{AD977A83-1F79-407F-949B-6239C5F69652}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +44,10 @@ Global
 		{084A2558-570A-4659-94EE-8756EE9BB942}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{084A2558-570A-4659-94EE-8756EE9BB942}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{084A2558-570A-4659-94EE-8756EE9BB942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD977A83-1F79-407F-949B-6239C5F69652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD977A83-1F79-407F-949B-6239C5F69652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD977A83-1F79-407F-949B-6239C5F69652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD977A83-1F79-407F-949B-6239C5F69652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

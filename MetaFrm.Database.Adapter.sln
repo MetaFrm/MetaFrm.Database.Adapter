@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Database.Adapter(net6.0)", "MetaFrm.Database.Adapter(net6.0)\MetaFrm.Database.Adapter(net6.0).csproj", "{55030A14-A55E-42DF-BB85-EA6654E6BD10}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{55306BDC-2D43-4556-B51F-9EC6ADB35C27}"
 	ProjectSection(SolutionItems) = preProject
 		src\Adapter.cs = src\Adapter.cs
@@ -14,9 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{ABBB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{91D1B450-E1BC-4477-AF34-9CD357198096}"
 	ProjectSection(SolutionItems) = preProject
-		.github\workflows\build_6.0.yml = .github\workflows\build_6.0.yml
-		.github\workflows\build_7.0.yml = .github\workflows\build_7.0.yml
 		.github\workflows\build_8.0.yml = .github\workflows\build_8.0.yml
+		.github\workflows\build_9.0.yml = .github\workflows\build_9.0.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{6CCB4DE2-1677-4EEC-9845-2864AD024661}"
@@ -26,9 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Database.Adapter(net7.0)", "MetaFrm.Database.Adapter(net7.0)\MetaFrm.Database.Adapter(net7.0).csproj", "{084A2558-570A-4659-94EE-8756EE9BB942}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaFrm.Database.Adapter(net8.0)", "MetaFrm.Database.Adapter(net8.0)\MetaFrm.Database.Adapter(net8.0).csproj", "{AD977A83-1F79-407F-949B-6239C5F69652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaFrm.Database.Adapter(net9.0)", "MetaFrm.Database.Adapter(net9.0)\MetaFrm.Database.Adapter(net9.0).csproj", "{C2988DA6-520A-45A0-803E-0A2347C07BE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,18 +33,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{55030A14-A55E-42DF-BB85-EA6654E6BD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55030A14-A55E-42DF-BB85-EA6654E6BD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55030A14-A55E-42DF-BB85-EA6654E6BD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55030A14-A55E-42DF-BB85-EA6654E6BD10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{084A2558-570A-4659-94EE-8756EE9BB942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{084A2558-570A-4659-94EE-8756EE9BB942}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{084A2558-570A-4659-94EE-8756EE9BB942}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{084A2558-570A-4659-94EE-8756EE9BB942}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD977A83-1F79-407F-949B-6239C5F69652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD977A83-1F79-407F-949B-6239C5F69652}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD977A83-1F79-407F-949B-6239C5F69652}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD977A83-1F79-407F-949B-6239C5F69652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2988DA6-520A-45A0-803E-0A2347C07BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2988DA6-520A-45A0-803E-0A2347C07BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2988DA6-520A-45A0-803E-0A2347C07BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2988DA6-520A-45A0-803E-0A2347C07BE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

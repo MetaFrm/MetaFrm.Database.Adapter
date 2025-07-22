@@ -8,7 +8,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>MetaFrm.Database.Adapter.net8.0</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>8.0.4.52</Version>
+    <Version>8.0.4.54</Version>
     <Company>Meta Framework</Company>
     <Copyright>Copyright 2025. dsun all rights reserved.</Copyright>
     <PackageProjectUrl>https://github.com/MetaFrm/MetaFrm.Database.Adapter</PackageProjectUrl>
@@ -34,7 +34,7 @@
     <Content Include="icon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MetaFrm.Core.net8.0" Version="8.0.4.52" />
+    <PackageReference Include="MetaFrm.Core.net8.0" Version="8.0.4.54" />
   </ItemGroup>
   <ItemGroup>
     <None Include="icon.png">

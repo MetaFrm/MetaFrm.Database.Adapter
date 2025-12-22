@@ -21,18 +21,18 @@
             string databaseNamespace;
             string connectionString;
 
-            if (connectionName != "")
-                connectionName = string.Format(".{0}", connectionName);
+            if (!connectionName.IsNullOrEmpty())
+                connectionName = $".{connectionName}";
 
-            databaseNamespace = this.GetAttribute(string.Format("Provider{0}", connectionName));
+            databaseNamespace = this.GetAttribute($"Provider{connectionName}");
 
-            if (databaseNamespace == null)
-                throw new MetaFrmException(string.Format("데이터 베이스 Provider{0}가 없습니다.", connectionName));
+            if (databaseNamespace.IsNullOrEmpty())
+                throw new MetaFrmException($"데이터 베이스 Provider{connectionName}가 없습니다.");
 
-            connectionString = this.GetAttribute(string.Format("ConnectionString{0}", connectionName));
+            connectionString = this.GetAttribute($"ConnectionString{connectionName}");
 
             if (connectionString.IsNullOrEmpty())
-                throw new MetaFrmException(string.Format("연결 문자열 ConnectionString{0}가 없습니다.", connectionName));
+                throw new MetaFrmException($"연결 문자열 ConnectionString{connectionName}가 없습니다.");
 
             commandTimeout = this.GetAttribute("CommandTimeout");
 

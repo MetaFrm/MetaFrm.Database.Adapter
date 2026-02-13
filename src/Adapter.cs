@@ -45,15 +45,12 @@
         {
             IDatabase? database;
 
-            database = (IDatabase?)Factory.CreateInstance(providerNamespace, false, true);
-            //database = new Database.Influx();
-            //database = (IDatabase)Factory.CreateInstance(@"E:\Work\Project\Atomus\Database\MySQL\bin\Debug\Atomus.Database.MySQL.dll", "Atomus.Database.MySQL", false, true);
-
-            if (database == null)
-                throw new MetaFrmException("CreateDatabase fail");
-
+            database = (IDatabase?)Factory.CreateInstance(providerNamespace, false, true) ?? throw new MetaFrmException("CreateDatabase fail");
             database.Connection.ConnectionString = connectionString;
             database.Command.CommandTimeout = commandTimeout;
+
+            //database = new Database.Influx();
+            //database = (IDatabase)Factory.CreateInstance(@"E:\Work\Project\Atomus\Database\MySQL\bin\Debug\Atomus.Database.MySQL.dll", "Atomus.Database.MySQL", false, true);
 
             return database;
         }
